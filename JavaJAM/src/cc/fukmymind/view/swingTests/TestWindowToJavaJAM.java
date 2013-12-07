@@ -47,6 +47,7 @@ public class TestWindowToJavaJAM {
 	public TestWindowToJavaJAM() {
 		initialize();
 		//comment
+		//comment2
 	}
 
 	/**

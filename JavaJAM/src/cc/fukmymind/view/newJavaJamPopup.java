@@ -44,7 +44,7 @@ public class newJavaJamPopup extends JDialog {
 		setDefaultCloseOperation(JDialog.DO_NOTHING_ON_CLOSE);
 		setType(Type.POPUP);
 		setResizable(false);
-		setTitle("Privacy settings");
+		setTitle("JavaJam privacy settings");
 		setBounds(100, 100, 459, 162);
 		getContentPane().setLayout(new BorderLayout());
 		contentPanel.setBorder(new EmptyBorder(5, 5, 5, 5));

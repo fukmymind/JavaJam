@@ -238,6 +238,7 @@ public class newJavaJamServer {
 		mnFile.add(mntmExit);
 		
 		JMenuItem mntmStatus = new JMenuItem("Status:");
+		mntmStatus.setEnabled(false);
 		mntmStatus.setForeground(Color.GRAY);
 		mntmStatus.setFont(new Font("Segoe UI", Font.BOLD | Font.ITALIC, 12));
 		menuBar.add(mntmStatus);

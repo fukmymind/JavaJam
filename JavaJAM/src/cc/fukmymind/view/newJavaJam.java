@@ -54,6 +54,7 @@ import java.awt.event.MouseEvent;
 import javax.swing.KeyStroke;
 import java.awt.event.KeyEvent;
 import java.awt.event.InputEvent;
+import javax.swing.JRadioButtonMenuItem;
 
 public class newJavaJam {
 
@@ -109,6 +110,10 @@ public class newJavaJam {
 				" \u2116", "  Server name:", " Public:", " Genre:", "Required play skill:"
 			}
 		) {
+			/**
+			 * 
+			 */
+			private static final long serialVersionUID = 3540494376750204264L;
 			boolean[] columnEditables = new boolean[] {
 				false, false, false, false, false
 			};
@@ -307,6 +312,15 @@ public class newJavaJam {
 			}
 		});
 		mnSettings.add(mntmUserSettings);
+		
+		JMenu mnLanguage = new JMenu("Language");
+		menuBar.add(mnLanguage);
+		
+		JRadioButtonMenuItem rdbtnmntmRussian = new JRadioButtonMenuItem("Russian");
+		mnLanguage.add(rdbtnmntmRussian);
+		
+		JRadioButtonMenuItem rdbtnmntmEnglish = new JRadioButtonMenuItem("English");
+		mnLanguage.add(rdbtnmntmEnglish);
 		
 		JMenuItem mntmStatus = new JMenuItem("Status:");
 		mntmStatus.setEnabled(false);
